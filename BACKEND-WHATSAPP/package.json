@@ -1,0 +1,38 @@
+{
+  "name": "buttonswhatsapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "bot": "tsx main.js"
+  },
+  "dependencies": {
+    "@itsukichan/baileys": "^7.3.2",
+    "dotenv": "^17.2.3",
+    "firebase": "^12.5.0",
+    "firebase-admin": "^13.6.0",
+    "qrcode-terminal": ""
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.9",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8.5",
+    "tailwindcss": "^4.1.9",
+    "tsx": "^4.7.0",
+    "tw-animate-css": "1.3.3",
+    "typescript": "^5"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "WhatsApp bot using Baileys library"
+}
