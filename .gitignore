@@ -20,7 +20,6 @@ yarn-error.log*
 # env files
 .env*
 /BACKEND-WHATSAPP/.env*
-BACKEND-WHATSAPP/serviceAccountKey.json
 
 # vercel
 .vercel
